@@ -76,7 +76,7 @@
 **通信机制:**
 主控通过发送指令封包向舵机下发控制或读取请求, 舵机在接收到合法的指令封包后, 会解析参数并返回对应的 **响应封包**。
 
-![command package](images_rs485/command package.svg)
+![command package](images_rs485/command_package.svg)
 
 
 
