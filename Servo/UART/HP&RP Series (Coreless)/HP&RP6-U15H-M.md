@@ -1,6 +1,6 @@
-# UART Bus Servo 15KG Series
+# UART Bus Servo 15KG Series 
 
-![U15 产品图](./UART_image/U15 产品图.jpg)
+![U15 产品图](./UART_image/U15产品图.jpg)
 
 ## 1. Features
 
