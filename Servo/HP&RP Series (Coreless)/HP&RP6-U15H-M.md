@@ -62,12 +62,12 @@
 | Reduction Ratio | 257:1 |
 | Output Spline | Aluminum |
 | Gear Material | All‑metal |
-| Interface | A2007‑3Pin |
-| Case | CNC aluminum alloy |
+| Interface | PH2.0-3Pin |
+| Case Material | CNC aluminum alloy |
 | Dimensions (W×H×D) | 31.5×21×27.6 mm |
 | Weight | 41 g |
 | Operating Temp. | ‑10–60 °C |
-| Operating Modes | Single‑turn / Multi‑turn / Damping |
+| Operating Modes | Single-turn Position Control Mode<br/>Multi-turn Position Control Mode<br/>Damping Mode |
 
 
 ### 3.2 Characteristics
@@ -77,8 +77,8 @@
 | Max Stall Torque | 1.47 N·m (15 kg·cm) |
 | Max Continuous Torque | 0.59 N·m (6 kg·cm) |
 | Rated Torque | 0.18 N·m (1.8 kg·cm) |
-| Rated Speed | 80 rpm (0.125 s/60°) |
-| No‑load Speed | 100 rpm (0.100 s/60°) |
+| Rated Speed | 80 rpm (0.125 sec@60°) |
+| No‑load Speed | 100 rpm (0.100 sec@60°) |
 | No‑load Current | <130 mA |
 | Standby Current | <50 mA |
 | Peak Current | 2 A |
@@ -111,12 +111,13 @@
 
 ### 4.3 Wiring Diagram 
 
-**Series Connection**  
+- **Series Connection**  
 
 | <img src="./UART_image/U15串联.png" alt="U15串联" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
-**Parallel Connection**
+- **Parallel Connection**
+
 
 | <img src="./UART_image/U15并联.png" alt="U15并联" style="zoom:50%;" /> |
 | :----------------------------------------------------------: |
@@ -389,7 +390,7 @@ For example: as shown in the figure, the current position at point A1 is 6,880°
 - The stored motion instruction will remain intact unless overwritten by a new instruction or power is disconnected. It will not be overwritten or cleared by the execution of other instructions.
 - After the asynchronous instruction is triggered for execution, the related parameters are automatically cleared and no longer retained.
 
-### 7.12 Parameter Customization
+### 7.12 Customize Configuration Parameters
 
 - The parameters of servo in the table below all support single read[03], write[04], and reset[02].
 - It is recommended to use our PC configuration tool for setting.
@@ -417,7 +418,7 @@ For example: as shown in the figure, the current position at point A1 is 6,880°
 | 51     | Upper Limit of Position           |   ●   |  ●   | 0.1° |                |
 | 52     | Lower Limit of Position           |   ●   |  ●   | 0.1° |                |
 
-### 7.13 Operation Status Data Read
+### 7.13 Read Data
 
 - **Single Read**[03]
 
@@ -453,6 +454,6 @@ For example: as shown in the figure, the current position at point A1 is 6,880°
 | <img src="./UART_image/protection.png" alt="protection"  /> |
 | :---------------------------------------------------------: |
 
-### 7.14 Arbitrary Origin Position Setting[23]
+### 7.14 Set Origin Point[23]
 
 ​	When the servo is in free mode, the current position can be set to be original position(0°) through our exclusive software or a designated instruction, facilitating zero calibration after assembly and providing a reference starting position for subsequent motions.
