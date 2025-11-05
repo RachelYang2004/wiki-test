@@ -1,6 +1,6 @@
 # UART Bus Servo 28KG Series (D shaft)
 
-<img src="./UART_image/U29产品图.jpg" alt="U29产品图" style="zoom: 67%;" />
+<img src="./UART_image/U29产品图.jpg" alt="U29产品图" style="zoom: 50%;" />
 
 ## 1. Features
 
