@@ -1,6 +1,6 @@
 # UART Bus Servo 25KG Series 
 
-<img src="./UART_image/U25产品图片.png" alt="U25产品图片" style="zoom:80%;" />
+<img src="./UART_image/U25产品图片.png" alt="U25产品图片" style="zoom: 50%;" />
 
 ## 1. Features
 

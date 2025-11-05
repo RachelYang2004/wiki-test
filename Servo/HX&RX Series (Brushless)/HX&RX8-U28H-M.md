@@ -1,6 +1,6 @@
 # UART Bus Servo 28KG Series 
 
-<img src="./UART_image/U28产品图.png" alt="U28产品图" style="zoom:67%;" />
+<img src="./UART_image/U28产品图.png" alt="U28产品图" style="zoom: 50%;" />
 
 ## 1. Features
 
@@ -100,24 +100,24 @@
 
 ### 4.1 CAD Dimensional Drawing
 
-| <img src="./UART_image/U28_3D图.png" alt="U15单轴" style="zoom:67%;" /> |
+| <img src="./UART_image/U28_3D图.png" alt="U28_3D图" style="zoom:67%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.2 Interface Definition
 
-| <img src="./UART_image/U28接口图.png" alt="U15接口图" style="zoom: 50%;" /> |
+| <img src="./UART_image/U28接口图.png" alt="U28接口图" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.3 Wiring Diagram 
 
 - **Series Connection**  
 
-| <img src="./UART_image/U28串联.png" alt="U15串联" style="zoom: 50%;" /> |
+| <img src="./UART_image/U28串联.png" alt="U28串联" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 - **Parallel Connection**
 
-| <img src="./UART_image/U28并联.png" alt="U15并联" style="zoom:50%;" /> |
+| <img src="./UART_image/U28并联.png" alt="U28并联" style="zoom:50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.4 Installation Instruction

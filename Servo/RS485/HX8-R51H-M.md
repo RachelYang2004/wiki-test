@@ -1,12 +1,12 @@
-# UART Bus Servo 12KG Series 
+# RS-485 Bus Servo 50KG Series(D-shaft)
 
-<img src="./UART_image/U12产品图.jpg" alt="U12 产品图" style="zoom: 33%;" />
+<img src="./RS485_image/R51产品图.png" alt="R51产品图" style="zoom: 50%;" />
 
 ## 1. Features
 
-- Integrated design: coreless motor, reducer, 12‑bit magnetic absolute encoder, and controller
+- Integrated design: brushless motor, reducer, 12‑bit magnetic absolute encoder, and controller
 
-- UART/TTL half‑duplex protocol up to **1 Mbps**
+- RS485 protocol up to **1 Mbps**
 
 - Resolution **4096 counts/360° (0.088°)**; min control step **0.1°**
 
@@ -28,7 +28,7 @@
 
 ## 2. Model definition
 
-![产品命名-型号规则](./UART_image/产品命名-型号规则.png)
+![产品命名-型号规则](./RS485_image/产品命名-型号规则.png)
 
 | Appearance      | R：Dual-shaft      | H：Single-shaft                    |                                  |
 | --------------- | ------------------ | ---------------------------------- | -------------------------------- |
@@ -40,7 +40,7 @@
 
 **Models available for order**
 
-- **RP6-U12H-M**
+- **HX8-R51H-M**
 
   
 
@@ -51,21 +51,21 @@
 | Item | Specification |
 | --- | --- |
 | Input Voltage | 9.0–12.6 V |
-| Motor Type | Coreless motor |
+| Motor Type | Brushless motor |
 | Position Sensor | 12‑bit magnetic absolute encoder |
 | Effective Position Range | ±180° (single‑turn); ±368,640° (multi‑turn) |
 | Resolution | 4096/360° (0.088°) |
 | Processor | 32‑bit MCU |
-| Protocol | UART/TTL half‑duplex |
+| Protocol | RS-485 |
 | Baud Rate | 9,600 bps–1 Mbps |
 | ID Range | 0–254 |
-| Reduction Ratio | 272:1 |
-| Output Spline | Ø10 Steering Wheel |
-| Gear Material | All-Metal Stainless Steel Assembly |
-| Interface | PH2.0-3Pin |
+| Reduction Ratio | 387:1 |
+| Output Spline | Stainless Steel / Ø6mm / 25T |
+| Gear Material | All-metal stainless steel composite gear |
+| Interface | PH2.0-4Pin |
 | Case Material | CNC aluminum alloy housing |
-| Dimensions (W×H×D) | 33.5×21×23.4 mm |
-| Weight | 34 g |
+| Dimensions (W×H×D) | 40×20×46 mm |
+| Weight | 95 g |
 | Operating Temp. | ‑10–60 °C |
 | Operating Modes | Single-turn Position Control Mode<br/>Multi-turn Position Control Mode<br/>Damping Mode |
 
@@ -74,25 +74,25 @@
 
 | Item | **Specifications（12V）** |
 | --- | --- |
-| Max Stall Torque | 1.18 N·m (12 kg·cm) |
-| Max Continuous Torque | 0.5 N·m (5.1 kg·cm) |
-| Rated Torque | 0.16 N·m(1.63kg-cm) |
-| Rated Speed | 56 rpm (0.116 sec@60°) |
-| No‑load Speed | 80 rpm (0.100 sec@60°) |
-| No‑load Current | <130 mA |
+| Max Stall Torque | 4.90 N·m (50 kg·cm) |
+| Max Continuous Torque | 2.26 N·m (23 kg·cm) |
+| Rated Torque | 0.88 N·m (9 kg·cm) |
+| Rated Speed | 52 rpm (0.192 sec@60°) |
+| No‑load Speed | 66 rpm (0.151 sec@60°) |
+| No‑load Current | <300 mA |
 | Standby Current | <40 mA |
-| Peak Current | <1 A |
-| Axial Load | 10 N |
-| Radial Load | 20 N |
+| Peak Current | 5.5 A |
+| Axial Load | 20 N |
+| Radial Load | 40 N |
 
 
 ### 3.3 Performance Graph
 
-<img src="./UART_image/U12特性曲线图.png" alt="U12过载曲线" style="zoom:50%;" />
+<img src="./RS485_image/R51特性曲线图.png" alt="U28过载曲线" style="zoom:50%;" />
 
 ### 3.4 Overload Graph
 
--Unreleased
+<img src="./RS485_image/R51过载曲线图.png" alt="U28过载曲线" style="zoom:50%;" />
 
 
 
@@ -100,42 +100,41 @@
 
 ### 4.1 CAD Dimensional Drawing
 
-| <img src="./UART_image/U12_3D图.jpg" alt="U12_3D图" style="zoom: 50%;" /> |
+| <img src="./RS485_image/R51_3D图.png" alt="U28_3D图" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.2 Interface Definition
 
-| <img src="./UART_image/U12接口图.png" alt="U12接口图" style="zoom: 30%;" /> |
+| <img src="./RS485_image/R51接口图.png" alt="U28接口图" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.3 Wiring Diagram 
 
 - **Series Connection**  
 
-| <img src="./UART_image/U12串联.png" alt="U12串联" style="zoom: 67%;" /> |
+| <img src="./RS485_image/R51串联.png" alt="U28串联" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 - **Parallel Connection**
 
-
-| <img src="./UART_image/U12并联.png" alt="U12并联" style="zoom:50%;" /> |
+| <img src="./RS485_image/R51并联.png" alt="U28并联" style="zoom:50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.4 Installation Instruction
 
--  **Dual-shaft**
+- **Single-shaft**
 
-  | <img src="./UART_image/U12双轴安装.png" alt="U12双轴安装" style="zoom:67%;" /> |
-  | :----------------------------------------------------------: |
+| <img src="./RS485_image/R51单轴安装.png" alt="U50单轴安装" style="zoom:80%;" /> |
+| :----------------------------------------------------------: |
 
-  
+
 
 ## 5. Development & Compatibility
 
 ​	The bus servo series adopts a unified hardware platform and system architecture, fully addressing the needs for diversity and flexibility. Different models are seamlessly compatible with each other, uniformly supporting standard protocols and control commands, significantly simplifying system integration and development processes.
 ​	To accelerate the deployment of the project, we provide a reliable SDK (Software Development Kit) that includes code samples, drivers and detailed technical documents. The SDK supports multiple mainstream development environments and programming languages. Please refer to the table below to get more information.
 
-<img src="./UART_image/development environment.png" alt="development environment" style="zoom: 67%;" />
+<img src="./RS485_image/development environment.png" alt="development environment" style="zoom: 67%;" />
 
 
 
@@ -145,8 +144,8 @@
 
 - The status flag bits are defined as follows: 1 represents Protection triggered，0 represents normal operation.
 
-  | ![protection](./UART_image/protection.png) |
-  | ------------------------------------------ |
+  | ![protection](./RS485_image/protection.png) |
+  | ------------------------------------------- |
 
   > [!WARNING]
   >
@@ -242,8 +241,8 @@
 
 Example: ID2 takes 500ms to rotate to 90 degrees at maximum power
 
-| ![transmit_command](./UART_image/transmit_command.png) |
-| ------------------------------------------------------ |
+| ![transmit_command](./RS485_image/transmit_command.png) |
+| ------------------------------------------------------- |
 
 -  **Response Packet Format**
 
@@ -257,8 +256,8 @@ Unpacking: 0x86 0x03 is the position. After unpacking, it becomes 902. Converted
 
 Example: Read the position of ID0
 
-| ![respond_command](./UART_image/respond_command.png) |
-| ---------------------------------------------------- |
+| ![respond_command](./RS485_image/respond_command.png) |
+| ----------------------------------------------------- |
 
 ### 7.3 Instruction Interval Suggestion
 
@@ -293,7 +292,7 @@ Example: Read the position of ID0
 | Single-Turn Position Control (Advanced - Time-based)[11]  | Target position, time, acceleration time, deceleration time, operating power |
 | Single-Turn Position Control (Advanced - Speed-based)[12] | Target position, motion velocity, acceleration time, deceleration time, operating power |
 
-| <img src="./UART_image/Velocity Profile.png" alt="Velocity Profile" style="zoom:67%;" /> |
+| <img src="./RS485_image/Velocity Profile.png" alt="Velocity Profile" style="zoom:67%;" /> |
 | :----------------------------------------------------------: |
 
 - **Position Read**
@@ -320,7 +319,7 @@ Example: Read the position of ID0
   | Multi-Turn Position Control (Advanced - Time-based) [14] | Target position, time, acceleration time, deceleration time, operating power |
   | Multi-Turn Position Control (Advanced - Speed-based)[15] | Target position, motion velocity, acceleration time, deceleration time, operating power |
 
-| <img src="./UART_image/Velocity Profile.png" alt="Velocity Profile" style="zoom:67%;" /> |
+| <img src="./RS485_image/Velocity Profile.png" alt="Velocity Profile" style="zoom:67%;" /> |
 | :----------------------------------------------------------: |
 
 - **Multi-turn Position Read**
@@ -335,7 +334,7 @@ Example: Read the position of ID0
 
 For example: as shown in the figure, the current position at point A1 is 6,880°, and position will be θ1 after resetting. The current position at point A2 is 6,800°, and position will be -θ2 after resetting.
 
-| <img src="./UART_image/多圈重置.png" alt="多圈重置" style="zoom:67%;" /> |
+| <img src="./RS485_image/多圈重置.png" alt="多圈重置" style="zoom:67%;" /> |
 | :----------------------------------------------------------: |
 
 - **Power-off Position Retention**
@@ -350,7 +349,7 @@ For example: as shown in the figure, the current position at point A1 is 6,880°
 
   For example: As shown in the figure, the position value of point A is 6,800° before power-off. If the is rotated by an external force during power-off and stops at point B1, the position value after power-on will be 6,920°; if it stops at point B2, the position value will be 6,680°.	
 
-| <img src="./UART_image/掉电记忆.png" alt="掉电记忆" style="zoom:67%;" /> |
+| <img src="./RS485_image/掉电记忆.png" alt="掉电记忆" style="zoom:67%;" /> |
 | :----------------------------------------------------------: |
 
 ### 7.8 Damping Mode[9]
@@ -445,8 +444,8 @@ For example: as shown in the figure, the current position at point A1 is 6,880°
 
 - **Servo Status**
 
-| <img src="./UART_image/protection.png" alt="protection"  /> |
-| :---------------------------------------------------------: |
+| <img src="./RS485_image/protection.png" alt="protection"  /> |
+| :----------------------------------------------------------: |
 
 ### 7.14 Set Origin Point[23]
 

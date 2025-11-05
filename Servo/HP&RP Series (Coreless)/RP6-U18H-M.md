@@ -1,6 +1,6 @@
 # UART Bus Servo 18KG Series 
 
-<img src="./UART_image/U18产品图.jpg" alt="U18 产品图" style="zoom:50%;" />
+<img src="./UART_image/U18产品图.jpg" alt="U18 产品图" style="zoom: 33%;" />
 
 ## 1. Features
 
@@ -105,28 +105,28 @@
 
 ### 4.2 Interface Definition
 
-| <img src="./UART_image/U18接口图.png" alt="U12接口图" style="zoom: 30%;" /> |
+| <img src="./UART_image/U18接口图.png" alt="U18接口图" style="zoom: 30%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.3 Wiring Diagram 
 
 - **Series Connection**  
 
-| <img src="./UART_image/U18串联.png" alt="U12串联" style="zoom: 67%;" /> |
+| <img src="./UART_image/U18串联.png" alt="U18串联" style="zoom: 67%;" /> |
 | :----------------------------------------------------------: |
 
 - **Parallel Connection**
 
 
-| <img src="./UART_image/U18并联.png" alt="U12并联" style="zoom:64%;" /> |
+| <img src="./UART_image/U18并联.png" alt="U18并联" style="zoom:64%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.4 Installation Instruction
 
 -  **Dual-shaft**
 
-  |      |
-  | :--: |
+  | <img src="./UART_image/U18双轴安装.png" alt="U18双轴安装" style="zoom:67%;" /> |
+  | :----------------------------------------------------------: |
 
   
 

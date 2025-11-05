@@ -1,6 +1,6 @@
 # UART Bus Servo 50KG Series (D shaft)
 
-<img src="./UART_image/U50产品图.png" alt="U50产品图" style="zoom:67%;" />
+<img src="./UART_image/U51产品图.jpg" alt="U51产品图" style="zoom: 33%;" />
 
 ## 1. Features
 
@@ -88,11 +88,11 @@
 
 ### 3.3 Performance Graph
 
-<img src="./UART_image/U51特性曲线图.png" alt="U28过载曲线" style="zoom:50%;" />
+<img src="./UART_image/U51特性曲线图.png" alt="U51过载曲线" style="zoom:50%;" />
 
 ### 3.4 Overload Graph
 
-<img src="./UART_image/U51过载曲线图.png" alt="U28过载曲线" style="zoom:50%;" />
+<img src="./UART_image/U51过载曲线图.png" alt="U51过载曲线" style="zoom:50%;" />
 
 
 
@@ -100,36 +100,36 @@
 
 ### 4.1 CAD Dimensional Drawing
 
-| <img src="./UART_image/U51_3D图.png" alt="U15单轴" style="zoom:67%;" /> |
+| <img src="./UART_image/U51_3D图.png" alt="U51单轴" style="zoom:67%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.2 Interface Definition
 
-| <img src="./UART_image/U51接口图.png" alt="U15接口图" style="zoom: 50%;" /> |
+| <img src="./UART_image/U51接口图.png" alt="U51接口图" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.3 Wiring Diagram 
 
 - **Series Connection**  
 
-| <img src="./UART_image/U51串联.png" alt="U15串联" style="zoom: 50%;" /> |
+| <img src="./UART_image/U51串联.png" alt="U51串联" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: |
 
 - **Parallel Connection**
 
-| <img src="./UART_image/U51并联.png" alt="U15并联" style="zoom:50%;" /> |
+| <img src="./UART_image/U51并联.png" alt="U51并联" style="zoom:50%;" /> |
 | :----------------------------------------------------------: |
 
 ### 4.4 Installation Instruction
 
 - **Single-shaft**
 
-| <img src="./UART_image/U51单轴安装.png" alt="U50单轴安装" style="zoom:50%;" /> |
+| <img src="./UART_image/U51单轴安装.png" alt="U51单轴安装" style="zoom:50%;" /> |
 | :----------------------------------------------------------: |
 
 -  **Dual-shaft**
 
-  | <img src="./UART_image/U51双轴安装.png" alt="U28双轴安装" style="zoom:50%;" /> |
+  | <img src="./UART_image/U51双轴安装.png" alt="U51双轴安装" style="zoom:50%;" /> |
   | :----------------------------------------------------------: |
 
   
