@@ -13,7 +13,7 @@
 - [Click to download](https://wiki.fashionstar.com.hk/download/1247/?tmstv=1763447274) (Serial Port Assistant + Command Generation Tool).
 - Please connect the bus servo – USB/TTL module – computer in sequence according to the following diagram, and then connect the power supply.
 
-<img src="./../Basic Usage of Bus Servo Motors/basic_image/串口助手连接示意图.jpg" alt="串口助手连接示意图" style="zoom:33%;" />
+<img src="./images_rs485/串口助手连接示意图.jpg" alt="串口助手连接示意图" style="zoom:33%;" />
 
 > [!NOTE]
 >
@@ -32,7 +32,7 @@
 
   By entering the corresponding content in the attached table, you can obtain hexadecimal command examples for the **Single-Turn Position Control (Basic)** and **Multi-Turn Position Control (Basic)**.
 
-![16hex tool](./../Basic Usage of Bus Servo Motors/basic_image/16hex tool.png)
+![16hex tool](./images_rs485/16hex tool.png)
 
 > [!NOTE]
 >
@@ -47,4 +47,4 @@
 
 As shown in the figure, the operation steps for using the serial port assistant are as follows:
 
-![SSCOM](./../Basic Usage of Bus Servo Motors/basic_image/SSCOM.png)
+![SSCOM](./images_rs485/SSCOM.png)
