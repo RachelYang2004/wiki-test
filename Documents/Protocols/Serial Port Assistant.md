@@ -32,7 +32,7 @@
 
   By entering the corresponding content in the attached table, you can obtain hexadecimal command examples for the **Single-Turn Position Control (Basic)** and **Multi-Turn Position Control (Basic)**.
 
-![16hex tool](./images_rs485/16hex tool.png)
+![16hex_tool](./images_rs485/16hex_tool.png)
 
 > [!NOTE]
 >
