@@ -114,7 +114,7 @@ If you **did not** purchase the [Rasprobo2 shield](https://item.taobao.com/item.
 
 **Notes:** Power the two boards **independently**. Supply the UC01 via its power input, and power the Raspberry Pi via its **USB Type‑C**. Do **not** attempt to power the Pi from the UC01’s TTL **5 V** pin—the current is insufficient for stable Pi operation. Also connect the UC01’s **Micro‑USB** to one of the Pi’s USB ports.
 
-For control methods, see the [Python SDK]([Python – wiki](https://wiki.fashionstar.com.hk/python)).
+For control methods, see the [Python SDK](https://wiki.fashionstar.com.hk/python).
 
 ### 5.3. STM32F103 “Blue Pill”
 

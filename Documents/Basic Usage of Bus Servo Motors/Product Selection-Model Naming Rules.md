@@ -14,13 +14,13 @@ This selection table is intended to provide users with detailed product selectio
 
 - **Special Requirements:** If users have special functional requirements, please contact technical support for further consultation and customized services.
 
-  ![product selection](./basic_image/product _selection.png)
+  ![product_selection](./basic_image/selection.png)
 
 
 
 ## 2. Model definition
 
-![model definition](./basic_image/model definition.png)
+![model definition](./basic_image/model_definition.png)
 
 | Appearance      | R：Dual-shaft      | H：Single-shaft                    |                                  |
 | --------------- | ------------------ | ---------------------------------- | -------------------------------- |
