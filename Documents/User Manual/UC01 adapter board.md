@@ -6,7 +6,7 @@ Bus servos must be used together with the [Bus Servo Adapter Board](https://item
 
 ## 2. Board Specifications
 
-![](images/exvquTCf1tPoIbc.png)
+<img src="images/uc01接口图.png" style="zoom:33%;" />
 
 | Category                 | Value        |
 | ------------------------ | ------------ |
@@ -21,7 +21,7 @@ Bus servos must be used together with the [Bus Servo Adapter Board](https://item
 
 The board has two servo sockets. Use **either** one to connect a servo to the adapter. The sockets have **reverse‑polarity protection** (keyed design), so you don’t need to worry about plugging it in the wrong way.
 
-![image-20210427172337530](images/hRKDpFmr8zd9LNP.png)
+<img src="images/hRKDpFmr8zd9LNP.png" alt="image-20210427172337530" style="zoom:50%;" />
 
 Additionally, an **external power supply** powers both the adapter board **and** the servo. **The required external supply voltage depends on the servo’s rated voltage range.**
 
@@ -31,15 +31,15 @@ Additionally, an **external power supply** powers both the adapter board **and**
 
 Connect the adapter board to a computer using a USB cable.
 
-> **Note:** On Windows, you can use the servo debugging tool to test servo features. On other operating systems, use the SDK to test servo features.
+> [!NOTE]
+>
+> On Windows, you can use the servo debugging tool to test servo features. On other operating systems, use the SDK to test servo features.
 
-*Block diagram*
+<img src="images/hHk4Ra1oyGIWMdV.jpg" style="zoom: 67%;" />
 
-![](images/hHk4Ra1oyGIWMdV.jpg)
+*Real‑world example* — connection between **Raspberry Pi** and a **2‑DoF gimbal**:
 
-*Real‑world example* — connection between Raspberry Pi and a 2‑DoF gimbal:
-
-![](images/xAoZNvq1yYtJWBD.png)
+<img src="images/舵机接线图.png" style="zoom: 33%;" />
 
 ### 3.2. Function 2: TTL (two‑wire) to Single‑wire
 
@@ -47,7 +47,7 @@ When using a microcontroller (Arduino/STM32/C51/TI, etc.) to communicate with th
 
 *Example wiring* — Arduino:
 
-![](images/6kvKfCBlhLQZ9iS.png)
+<img src="images/uc01-Arduino.png" style="zoom:33%;" />
 
 | UC01 Adapter | Arduino |
 | ------------ | ------- |
@@ -56,13 +56,16 @@ When using a microcontroller (Arduino/STM32/C51/TI, etc.) to communicate with th
 | RX           | TX      |
 | 5V           | 5V      |
 
-- **Remarks**  
-  1) The adapter operates at **5 V**. Do **not** connect its 5 V pin to a microcontroller’s **3.3 V** rail to avoid damaging the MCU. If the MCU is powered independently, you may leave the adapter’s **5 V** pin **unconnected**.  
-  2) `RX` = receive, `TX` = transmit.
+> [!NOTE]
+>
+> 1) The adapter operates at **5 V**. Do **not** connect its 5 V pin to a microcontroller’s **3.3 V** rail to avoid damaging the MCU. If the MCU is powered independently, you may leave the adapter’s **5 V** pin **unconnected**.  
+> 2) `RX` = receive, `TX` = transmit.
 
 ### 3.3. Function 3: USB to TTL UART
 
 The adapter board can also be used as a general‑purpose USB‑to‑TTL UART module.
+
+
 
 ## 4. USB‑to‑TTL Driver Installation
 
@@ -73,6 +76,8 @@ The adapter board can also be used as a general‑purpose USB‑to‑TTL UART mo
 - After installation, verify that the driver is installed correctly.
 
 [How to Check if CH340 Driver Is Installed](https://jingyan.baidu.com/article/00a07f3872a90982d028dcb9.html)
+
+
 
 ## 5. Connecting the Adapter with Other Development Boards
 
@@ -89,11 +94,11 @@ If you **did not** purchase the Ardurobo2 shield, wire as follows. If you **did*
 | GND          | GND  |
 | Vin          | 5V   |
 
-![image-20210519174408746](images/ZPwRKc71NeuBy9Y.png)
+<img src="images/ZPwRKc71NeuBy9Y.png" alt="image-20210519174408746" style="zoom:50%;" />
 
 Power the UC01 and you’re ready.
 
-For control methods, see the [Arduino SDK Manual](https://wiki.fashionrobo.com/uart-arduino-sdk/arduino/).
+For control methods, see the [Arduino SDK](https://wiki.fashionstar.com.hk/arduino_uno).
 
 ### 5.2. Raspberry Pi
 
@@ -109,7 +114,7 @@ If you **did not** purchase the [Rasprobo2 shield](https://item.taobao.com/item.
 
 **Notes:** Power the two boards **independently**. Supply the UC01 via its power input, and power the Raspberry Pi via its **USB Type‑C**. Do **not** attempt to power the Pi from the UC01’s TTL **5 V** pin—the current is insufficient for stable Pi operation. Also connect the UC01’s **Micro‑USB** to one of the Pi’s USB ports.
 
-For control methods, see the [Python SDK Manual](https://wiki.fashionrobo.com/uart-python-sdk/python/).
+For control methods, see the [Python SDK]([Python – wiki](https://wiki.fashionstar.com.hk/python)).
 
 ### 5.3. STM32F103 “Blue Pill”
 

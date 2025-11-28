@@ -14,7 +14,7 @@ This selection table is intended to provide users with detailed product selectio
 
 - **Special Requirements:** If users have special functional requirements, please contact technical support for further consultation and customized services.
 
-  ![product selection](./basic_image/product selection.png)
+  ![product selection](./basic_image/product _selection.png)
 
 
 
