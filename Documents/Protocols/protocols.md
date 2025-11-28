@@ -95,10 +95,7 @@ The master control sends a command packet to the servo to send control or read r
 >
 > - **Fixed Response:**Response packet is always returned.
 > - **Optional Response:** Whether a response is returned depends on the PC configuration parameter `Response after action`(default = No).
-
-> [!TIP]
->
-> **Recommendation:** For time-sensitive batch control scenarios (e.g., multi-servo synchronous control), it is recommended to disable configurable responses to reduce bus occupation. However, during debugging and fault diagnosis, enabling them is recommended for quick issue identification.
+> - **Recommendation:** For time-sensitive batch control scenarios (e.g., multi-servo synchronous control), it is recommended to disable configurable responses to reduce bus occupation. However, during debugging and fault diagnosis, enabling them is recommended for quick issue identification.
 
 
 

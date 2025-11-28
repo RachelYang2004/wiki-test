@@ -213,4 +213,4 @@ Example: equivalent single-turn command sent from control panel to servo ID 2 fr
 
 -   [PC configuration tool software Download](https://fashionrobo.com/wp-content/uploads/download/Develop-US_1.0.9.266.rar)
 -   [CH340 Driver Download](https://www.wch.cn/downloads/CH341SER_EXE.html)
--   [Bus Servo Communication Protocol](https://wiki.fashionrobo.com/uartbasic/uart-protocol/)
+-   [Bus Servo Communication Protocol](https://wiki.fashionstar.com.hk/protocols)
