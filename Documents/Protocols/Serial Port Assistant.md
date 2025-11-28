@@ -48,3 +48,4 @@
 As shown in the figure, the operation steps for using the serial port assistant are as follows:
 
 ![SSCOM](./images_rs485/SSCOM.png)
+
